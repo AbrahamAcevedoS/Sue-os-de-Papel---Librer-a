@@ -1,0 +1,261 @@
+/* Estilos Generales */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Fondo gris claro común */
+}
+
+/* Encabezado Principal */
+header {
+    background-color: #ff6f61; /* Rojo anaranjado */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+}
+.logo {
+    float: left;
+  }
+  
+  .logo img {
+    width: 150px;
+    height: auto;
+  }
+  
+/* Navegación Principal */
+nav {
+    background-color: #c01313; /* Rojo oscuro */
+    overflow: hidden;
+}
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 36px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #ddd; /* Gris claro */
+    color: rgb(214, 34, 34); /* Rojo más oscuro */
+}
+
+/* Contenido Principal */
+.main-content {
+    padding: 20px;
+}
+.main-content h2 {
+    color: #333; /* Texto oscuro */
+}
+.main-content p {
+    line-height: 1.6;
+}
+.producto {
+  width: 300px;
+  margin: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.producto img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.producto h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.producto p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.producto input[type="number"] {
+  width: 60px;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.producto button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* Estilos para Sección de Más Vendidos */
+.best-seller {
+    background-color: #fff; /* Fondo blanco */
+    padding: 20px;
+}
+.best-seller h2 {
+    color: #ff6f61; /* Rojo anaranjado */
+    text-align: center;
+}
+.book-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd; /* Borde gris claro */
+}
+.book-item img {
+    width: 50px;
+    height: auto;
+}
+.book-details {
+    flex: 1;
+    margin-left: 20px;
+}
+.book-details h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333; /* Texto oscuro */
+}
+.book-details p {
+    margin: 5px 0;
+    color: #777; /* Texto gris */
+}
+.book-price {
+    text-align: right;
+}
+.book-price .original-price {
+    text-decoration: line-through;
+    color: #999; /* Texto gris más claro */
+}
+.book-price .discounted-price {
+    color: #ff6f61; /* Rojo anaranjado */
+    font-size: 1.2em;
+}
+.add-to-cart {
+    background-color: #ff6f61; /* Rojo anaranjado */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.add-to-cart:hover {
+    background-color: #ff9a8b; /* Rosa */
+}
+
+/* Estilos para Botones Generales */
+button {
+    background-color: #008080; /* Verde azulado */
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #005959; /* Verde más oscuro */
+}
+
+/* Estilos para Secciones Específicas (Preventas, Promociones, etc.) */
+.books {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+}
+.book {
+    text-align: center;
+    background-color: white;
+    padding: 1em;
+    border: 1px solid #ddd; /* Borde gris claro */
+    border-radius: 5px;
+    width: 200px;
+}
+.book img {
+    width: 100%;
+    height: auto;
+}
+.book h2 {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+.book p {
+    margin: 0.5em 0;
+}
+.discount {
+    text-decoration: line-through;
+    color: red;
+}
+
+/* Estilos para Secciones de Registro, Despacho, Políticas y Tiendas */
+section {
+    padding: 2em;
+    background-color: white;
+    margin: 1em 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+section h2 {
+    margin-top: 0;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form label {
+    margin-bottom: 0.5em;
+}
+form input {
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 5px;
+}
+form button {
+    background-color: #008080; /* Verde azulado */
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+form button:hover {
+    background-color: #005959; /* Verde más oscuro */
+}
+
+/* Estilos para el Pie de Página */
+footer {
+    background-color: #333; /* Gris oscuro */
+    color: white;
+    padding: 2em 0;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-section {
+    width: 30%;
+}
+.footer-section h3 {
+    border-bottom: 2px solid #ffcc00; /* Amarillo */
+    padding-bottom: 0.5em;
+}
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-section ul li {
+    margin: 0.5em 0;
+}
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+#cargando {
+    display: none;
+}
